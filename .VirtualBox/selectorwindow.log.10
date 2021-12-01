@@ -1,0 +1,18 @@
+00:00:00.556072 VirtualBox GUI VM Selector Window 6.1.12 r139181 win.amd64 (Jul 10 2020 22:02:01) release log
+00:00:00.556074 Log opened 2020-09-22T14:44:32.791240000Z
+00:00:00.556074 Build Type: release
+00:00:00.556076 OS Product: Windows 10
+00:00:00.556077 OS Release: 10.0.19041
+00:00:00.556078 OS Service Pack: 
+00:00:00.567426 DMI Product Name: HP Pavilion Gaming Laptop 15-dk0xxx
+00:00:00.570752 DMI Product Version: Type1ProductConfigId
+00:00:00.570768 Firmware type: UEFI
+00:00:00.570998 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.571015 Host RAM: 8033MB (7.8GB) total, 2148MB (2.0GB) available
+00:00:00.571019 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.571019 Process ID: 14404
+00:00:00.571019 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.571118 Qt version: 5.6.2
+00:00:00.583695 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.099589 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.127308 refreshCertificates/#3: Found 1/57 SSL certs we/you trust (previously 1/54).

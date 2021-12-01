@@ -1,0 +1,96 @@
+00:00:00.003485 main     VirtualBox COM Server 6.1.12 r139181 win.amd64 (Jul 10 2020 22:02:01) release log
+00:00:00.003487 main     Log opened 2020-09-11T17:11:56.334689100Z
+00:00:00.003488 main     Build Type: release
+00:00:00.003493 main     OS Product: Windows 10
+00:00:00.003494 main     OS Release: 10.0.19041
+00:00:00.003495 main     OS Service Pack: 
+00:00:00.027961 main     DMI Product Name: HP Pavilion Gaming Laptop 15-dk0xxx
+00:00:00.042934 main     DMI Product Version: Type1ProductConfigId
+00:00:00.042947 main     Firmware type: UEFI
+00:00:00.043383 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.043426 main     Host RAM: 8033MB (7.8GB) total, 4844MB (4.7GB) available
+00:00:00.043444 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.043445 main     Process ID: 1152
+00:00:00.043445 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.121996          VirtualBox: object creation starts
+00:00:00.122230          Home directory: 'C:\Users\Kristi\.VirtualBox'
+00:00:00.122391          Installed Drivers:
+00:00:00.129191            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.12.39181)
+00:00:00.130115            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.12.39181)
+00:00:00.130632            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.12.39181)
+00:00:00.131442            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.12.39181)
+00:00:00.140729          Loading settings file "C:\Users\Kristi\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.143051          usbLibGetDevices: Starting USB device enumeration
+00:00:00.169302          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.169383          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.171494          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.171562          USB: Unknown USB device detected (idVendor: 0x05c8, idProduct: 0x03bc)
+00:00:00.171614          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb00b)
+00:00:00.269312          HostDnsMonitor: initializing
+00:00:00.283673          HostDnsMonitor: updating information
+00:00:00.283696          HostDnsMonitor: old information
+00:00:00.283697            no server entries
+00:00:00.283698            no domain set
+00:00:00.283698            no search string entries
+00:00:00.283699          HostDnsMonitor: new information
+00:00:00.283699            server 1: 80.78.66.66
+00:00:00.283700            server 2: 80.78.66.67
+00:00:00.283700            server 3: 8.8.8.8
+00:00:00.283701            domain: home
+00:00:00.283701            no search string entries
+00:00:00.471840          VD: VDInit finished with VINF_SUCCESS
+00:00:00.479174          Loading settings file "C:\Users\Kristi\VirtualBox VMs\Kali-Linux-2020.3-vbox-amd64\Kali-Linux-2020.3-vbox-amd64.vbox" with version "1.16-windows"
+00:00:00.490425          OCI: Local config file 'C:\Users\Kristi\.VirtualBox\oci_config' does not exist
+00:00:00.490511          OCI: Original config file 'C:\Users\Kristi\.oci\config' does not exist
+00:00:00.490512          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:00.490523          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:00.490559          VirtualBox: object created
+00:00:02.522894          Saving settings file "C:\Users\Kristi\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.543563          Saving settings file "C:\Users\Kristi\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.889477          Launched VM: 2066960 pid: 12396 (0x306c) frontend: GUI/Qt name: Kali-Linux-2020.3-vbox-amd64
+00:00:10.589370 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:10.590430 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:10.627477 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:11.280620 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:11.280863 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:11.283427 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:11.935926 dns-monitor HostDnsMonitor: updating information
+00:00:11.935952 dns-monitor HostDnsMonitor: unchanged
+00:00:12.843788          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:00:13.270634          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:54.350254          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:21.262290 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:21.277380 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:01:21.277782 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:01:21.278502 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:01:21.278818 USBPROXY USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb00b)
+00:04:22.378054 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:04:22.378522 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:04:22.381674 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:07:20.041657 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:20.042180 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:20.045658 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:07:31.848202 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:31.848924 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:31.852833 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:07:33.099741 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:33.100231 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:33.103703 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:25:19.705448 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:25:19.705751 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:25:19.710611 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:25:20.319183 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:25:20.319821 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&380cfd04&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:25:20.323569 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:29:40.457552 dns-monitor HostDnsMonitor: updating information
+00:29:40.457652 dns-monitor HostDnsMonitor: unchanged
+00:42:52.457833          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:42:58.307459          Saving settings file "C:\Users\Kristi\VirtualBox VMs\Kali-Linux-2020.3-vbox-amd64\Kali-Linux-2020.3-vbox-amd64.vbox" with version "1.16-windows"
+00:43:01.138926          Saving settings file "C:\Users\Kristi\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:43:01.168956          Saving settings file "C:\Users\Kristi\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:43:06.730068 main     VirtualBox: object deletion starts
+00:43:06.730964 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Kristi\VirtualBox VMs\Kali-Linux-2020.3-vbox-amd64\Kali-Linux-2020.3-vbox-amd64-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:43:06.739172 main     HostDnsMonitor: shutting down ...
+00:43:06.739256 main     HostDnsMonitor: shut down
+00:43:06.743366 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:43:06.744215 main     VirtualBox: object deleted

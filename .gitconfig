@@ -1,0 +1,14 @@
+[gui]
+	recentrepo = C:/Users/Kristi/gitt
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Kristian Dhimitri
+	email = kristerus@protonmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
