@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/EOM.module.css";
-import { Toolbar } from "../components/Toolbar";
+import { Toolbar } from "../Components/Toolbar.js";
 
 function eom({ employee }) {
   return (

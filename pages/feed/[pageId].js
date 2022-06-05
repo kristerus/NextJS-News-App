@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import styles from "../../styles/Feed.module.css";
-import { Toolbar } from "../../components/Toolbar";
+import { Toolbar } from "../../Components/Toolbar.js";
 
 export default function Feed({ pageNumber, articles }) {
   const router = useRouter();
